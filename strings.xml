@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mobile</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="facebook_app_id">275877596390368</string>
+    <string name="shake_me">a</string>
+</resources>

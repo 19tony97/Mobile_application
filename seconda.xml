@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/butAvanti2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="145dp"
+        android:layout_height="59dp"
+        android:background="@color/colorAccent"
+        android:text="AVANTI"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/butIndietro2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="145dp"
+        android:layout_height="59dp"
+        android:background="@color/colorAccent"
+        android:text="INDIETRO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/butToccami2"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:text="Toccami"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="407dp"
+        android:layout_height="229dp"
+        app:layout_constraintBottom_toTopOf="@+id/butToccami2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624"
+        app:srcCompat="@mipmap/maracas" />
+
+</android.support.constraint.ConstraintLayout>
