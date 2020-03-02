@@ -1,0 +1,10 @@
+Please create mobile application that will be in-line with OS guidelines and has decent UI, having these features:
+
+
+
+1. Connection via network to some API (for example consuming JSON or XML from currency-exchange open APIs)
+
+2. Handling any sensor or camera (for example shaking device to clear query results)
+
+3. Integration with a library, for example Facebook or Google Maps.
+
